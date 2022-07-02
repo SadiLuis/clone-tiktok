@@ -1,13 +1,11 @@
-import { useState } from 'react'
 import './App.css'
+import VideoPlayer from './components/VideosPlayers'
 
 function App () {
- 
-
   return (
     <div className='App'>
       <main>
-      Tiktok clone
+        <VideoPlayer />
       </main>
     </div>
   )
